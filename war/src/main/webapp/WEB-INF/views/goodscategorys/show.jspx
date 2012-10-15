@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_cc_jifen_portal_GoodsCategory" object="${goodscategory}" path="/goodscategorys" z="trdJih7z/AE2BuBN0sheg0Kdobw=">
+        <field:display field="name" id="s_cc_jifen_portal_GoodsCategory_name" object="${goodscategory}" z="MwkemrvY8F2hY29Jc1S1Ivvx0io="/>
+        <field:display field="description" id="s_cc_jifen_portal_GoodsCategory_description" object="${goodscategory}" z="Y9eFGQo3uPyla8igvPb6GJy/rk0="/>
+    </page:show>
+</div>

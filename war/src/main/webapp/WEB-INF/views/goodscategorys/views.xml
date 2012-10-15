@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="goodscategorys/list">
+        <put-attribute name="body" value="/WEB-INF/views/goodscategorys/list.jspx"/>
+    </definition>
+<definition extends="default" name="goodscategorys/show">
+        <put-attribute name="body" value="/WEB-INF/views/goodscategorys/show.jspx"/>
+    </definition>
+<definition extends="default" name="goodscategorys/create">
+        <put-attribute name="body" value="/WEB-INF/views/goodscategorys/create.jspx"/>
+    </definition>
+<definition extends="default" name="goodscategorys/update">
+        <put-attribute name="body" value="/WEB-INF/views/goodscategorys/update.jspx"/>
+    </definition>
+</tiles-definitions>

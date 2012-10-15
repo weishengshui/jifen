@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_cc_jifen_portal_Goods" modelAttribute="goods" path="/goodses" versionField="Version" z="66p9i6R4p6Ap+Fh1TI/zjjCgZwc=">
+        <field:input field="name" id="c_cc_jifen_portal_Goods_name" required="true" z="R3yuq1Iaqx4lpUKk4C5OL+jsqm0="/>
+        <field:input field="code" id="c_cc_jifen_portal_Goods_code" required="true" z="Vc+LPnYDe+Xz5H9NHlB8YkMfuF8="/>
+        <field:input field="modelNumber" id="c_cc_jifen_portal_Goods_modelNumber" z="kCwFweqtSTlBJg+sd+FW2xBtk3Q="/>
+        <field:input field="description" id="c_cc_jifen_portal_Goods_description" z="Yfe1pTPCK706XaQ7hJZufxnnKjg="/>
+        <field:input field="image_path" id="c_cc_jifen_portal_Goods_image_path" z="v5uMdTcPhsCXzkI52ULQmPQFq2g="/>
+        <field:input field="location" id="c_cc_jifen_portal_Goods_location" z="87k9jyDnLX08F9j/oXfHWRgcgbo="/>
+        <field:input field="quantity" id="c_cc_jifen_portal_Goods_quantity" z="/Zgjzh4gKa8atOZQ/EEqzES8xfA="/>
+    </form:update>
+</div>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_cc_jifen_portal_Goods" object="${goods}" path="/goodses" z="zLuOvQeYZT/YrLCYk6DiLcYNax4=">
+        <field:display field="name" id="s_cc_jifen_portal_Goods_name" object="${goods}" z="eDnlX1/EKgTcL0hPuIrODR5Xid0="/>
+        <field:display field="code" id="s_cc_jifen_portal_Goods_code" object="${goods}" z="M7HL8ZBMdmnedO5iCJ3EwLYOKR4="/>
+        <field:display field="modelNumber" id="s_cc_jifen_portal_Goods_modelNumber" object="${goods}" z="mItuuXgG87It7nfbYwcPVz4jUAE="/>
+        <field:display field="description" id="s_cc_jifen_portal_Goods_description" object="${goods}" z="d3UeIVKNagem0p2Deh3YI9ebxL8="/>
+        <field:display field="image_path" id="s_cc_jifen_portal_Goods_image_path" object="${goods}" z="oB3XFVXDU5o5GeLTf4cyusUTM+w="/>
+        <field:display field="location" id="s_cc_jifen_portal_Goods_location" object="${goods}" z="xYd3l9R/yxwuzw5O0gqa4xYf0Vk="/>
+        <field:display field="quantity" id="s_cc_jifen_portal_Goods_quantity" object="${goods}" z="VWITTZrCGZ5vBL2BWKVcE0RZ0ng="/>
+    </page:show>
+</div>

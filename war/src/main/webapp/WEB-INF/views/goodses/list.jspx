@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_cc_jifen_portal_Goods" items="${goodses}" z="qaEnHCWzsOpOMUXAWr/KB4V3vYo=">
+        <table:table data="${goodses}" id="l_cc_jifen_portal_Goods" path="/goodses" z="Mng9sKu9+cSzcsUp/ZCd1V5GiCc=">
+            <table:column id="c_cc_jifen_portal_Goods_name" property="name" z="k/t/bd5e8kgUfxkk9NTcWQ2tXU8="/>
+            <table:column id="c_cc_jifen_portal_Goods_code" property="code" z="ADoK6TdihffFD2WJtC4rf0GwF7o="/>
+            <table:column id="c_cc_jifen_portal_Goods_modelNumber" property="modelNumber" z="vmK8dbA3dgtwEKUj13yw99l6HqQ="/>
+            <table:column id="c_cc_jifen_portal_Goods_description" property="description" z="R5btOszFKbwQmF1BFVCtU+/6Ffw="/>
+            <table:column id="c_cc_jifen_portal_Goods_image_path" property="image_path" z="kRfmd2Y5zWaPBETd3BwvJh2P3C4="/>
+            <table:column id="c_cc_jifen_portal_Goods_location" property="location" z="oPcRgHZOyfSDh76U9EP+t7WnCFM="/>
+        </table:table>
+    </page:list>
+</div>

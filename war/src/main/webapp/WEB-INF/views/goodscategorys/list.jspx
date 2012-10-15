@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_cc_jifen_portal_GoodsCategory" items="${goodscategorys}" z="SXbf2zNRJaDmwwrSDDP51SESbOs=">
+        <table:table data="${goodscategorys}" id="l_cc_jifen_portal_GoodsCategory" path="/goodscategorys" z="6lqC6/+r8ribPdtVI3VRV9Y04fQ=">
+            <table:column id="c_cc_jifen_portal_GoodsCategory_name" property="name" z="yANY2RErvB3FZ3yhTwjpO4EPFyk="/>
+            <table:column id="c_cc_jifen_portal_GoodsCategory_description" property="description" z="ZmndCorn0pVoWcN9N3Gpfv79KHI="/>
+        </table:table>
+    </page:list>
+</div>

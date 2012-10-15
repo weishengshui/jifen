@@ -1,0 +1,7 @@
+.cvsignore 
+.project
+CVS
+core/target
+model/target
+war/target
+.settings

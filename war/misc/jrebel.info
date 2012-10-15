@@ -1,0 +1,7 @@
+Plugin: org.zeroturnaround.javarebel.integration.IntegrationPlugin
+License: corporate
+Class:org/mortbay/jetty/webapp/WebAppClassLoader
+Plugin: org.zeroturnaround.javarebel.velocity.VelocityPlugin
+Plugin: org.zeroturnaround.javarebel.integration.struts2.Struts2Plugin
+Plugin: com.zeroturnaround.javarebel.guice.GuicePlugin
+Class:com/google/inject/Scopes

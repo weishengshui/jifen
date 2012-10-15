@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="member/list">
+        <put-attribute name="body" value="/WEB-INF/views/member/list.jsp"/>
+    </definition>
+    <definition extends="default" name="member/createPage">
+        <put-attribute name="body" value="/WEB-INF/views/member/create.jsp"/>
+    </definition>
+    <definition extends="default" name="member/create">
+        <put-attribute name="body" value="member/list" />
+    </definition>
+    <definition extends="default" name="member/update">
+        <put-attribute name="body" value="/WEB-INF/views/member/create.jsp"/>
+    </definition>
+</tiles-definitions>
